@@ -7,9 +7,9 @@ import org.junit.jupiter.api.Test;
 public class JunitTest {
 
     @Test
-    public void what is () {
+    public void testAdd() {
         MyFunctionTest myFunction = new MyFunctionTest();
-        int result = myFunction.add(2, 2);
+        int result = myFunction.add(3, 2);
         assertEquals(5, result);
     }
 
